@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Avani Land Developers</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- TOP MARQUEE BAR -->
+
+<div class="topbar">
+
+<div class="marquee">
+
+<div class="marquee-content">
+
+BOOK YOUR FREE SITE VISIT TODAY! CALL: +91 9000000000 &nbsp;&nbsp;&nbsp;
+
+BOOK YOUR FREE SITE VISIT TODAY! CALL: +91 9000000000 &nbsp;&nbsp;&nbsp;
+
+BOOK YOUR FREE SITE VISIT TODAY! CALL: +91 9000000000
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+<img src="images/logo.png">
+</div>
+
+
+<nav id="nav-menu">
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+
+<li class="dropdown">
+
+<a href="#">Projects <i class="fa-solid fa-chevron-down"></i></a>
+
+<ul class="dropdown-menu">
+
+<li><a href="mumbai.html">Mumbai </a></li>
+<li><a href="pune.html">Pune </a></li>
+
+</ul>
+
+</li>
+
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="https://avanilanddevelopers.com/virtualtour/">Virtual Tour</a></li>
+
+<li><a href="#blogs">Blogs</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+<a class="enquire-btn">ENQUIRE</a>
+
+
+<div class="menu-toggle" id="menu-toggle">
+<i class="fa fa-bars"></i>
+</div>
+
+</header>
+<!-- HERO -->
+
+<!-- <section class="contact-hero">
+
+<h1>Contact Us</h1>
+
+<p>
+Connect with our experts for site visits, pricing details,
+or investment guidance.
+</p>
+
+</section> -->
+
+
+<section class="contact-section">
+
+<div class="contact-container">
+
+
+<!-- LEFT CONTACT DETAILS -->
+
+<div class="contact-left">
+
+<h2>Contact Details</h2>
+
+
+<div class="contact-item">
+
+<div class="icon">
+<i class="fa-solid fa-phone"></i>
+</div>
+
+<div>
+<span>Call Us</span>
+<h4>9702679240 / 8652683124</h4>
+<p>Available 9 AM – 7 PM</p>
+</div>
+
+</div>
+
+
+
+<div class="contact-item">
+
+<div class="icon">
+<i class="fa-solid fa-envelope"></i>
+</div>
+
+<div>
+<span>Email Support</span>
+<h4>info@avanilanddevelopers.com</h4>
+<p>Response within 2 hours</p>
+</div>
+
+</div>
+
+
+
+<div class="office-block">
+
+<h4>Navi Mumbai Office</h4>
+
+<p>
+2027, 2nd floor, I wing, <br>
+Akshar Business park Turbhe, Sector 19F, <br>
+Vashi, Mumbai, Maharashtra 400703
+</p>
+
+</div>
+
+
+
+<div class="office-block">
+
+<h4>Pune Office</h4>
+
+<p>
+Office No 407, Business Square Tower<br>
+
+Sinhgad Road, Pune<br>
+Maharashtra – 411045
+</p>
+
+</div>
+
+
+<a href="#" class="map-btn">
+View Location on Google Maps →
+</a>
+
+</div>
+
+
+
+<!-- RIGHT FORM -->
+
+<div class="contact-right">
+
+<h2>Send an Enquiry</h2>
+
+<p>
+Fill the form and our property advisor will contact you shortly.
+</p>
+
+
+<form onsubmit="sendWhatsApp(); return false;">
+
+<div class="form-row">
+
+<input type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+
+<input type="tel"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+</div>
+
+
+<div class="form-row">
+
+<input type="email"
+id="email"
+placeholder="Email Address">
+
+
+<select id="service">
+
+<option>General Enquiry</option>
+<option>Investment Plots</option>
+<option>Residential Plots</option>
+<option>Commercial Plots</option>
+<option>Book Site Visit</option>
+
+</select>
+
+</div>
+
+
+<textarea
+id="message"
+placeholder="Tell us about your requirement">
+</textarea>
+
+
+<button type="submit">
+
+Send Message on WhatsApp
+<i class="fa-brands fa-whatsapp"></i>
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- MAP -->
+
+<section class="map-section">
+
+<iframe
+src="https://maps.google.com/maps?q=Navi%20Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+
+<div class="floating-icons">
+
+<a href="tel:+919000000000" class="call-btn">
+<i class="fa-solid fa-phone"></i>
+</a>
+
+
+<a href="https://wa.me/919000000000" target="_blank" class="whatsapp-btn">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<button id="openModal" class="enquiry-btn-float">
+<i class="fa-solid fa-pen-to-square"></i>
+</button>
+
+
+</div>
+
+<!-- SUPPORT STRIP -->
+
+<div class="support-strip">
+
+<div class="support-container">
+
+<div class="support-title">
+Need Help?
+</div>
+
+<div class="support-contacts">
+
+<div class="support-box">
+<i class="fa-solid fa-phone"></i>
+<div>
+<span>Sales Support</span>
+<p>9702679240 </p>
+</div>
+</div>
+
+<div class="support-box">
+<i class="fa-solid fa-phone"></i>
+<div>
+<span>General Enquiry</span>
+<p>8652683124</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- MAIN FOOTER -->
+
+<footer class="main-footer">
+
+<div class="footer-container">
+
+<!-- LEFT COLUMN -->
+
+<div class="footer-col">
+
+<img src="logo.png" class="footer-logo">
+
+<p>
+2027, 2nd floor, I wing, Akshar Business park <br>
+Turbhe, Sector 19F, Vashi,<br>
+ Mumbai, Maharashtra 400703
+</p>
+
+<p>
+9702679240 / 8652683124
+</p>
+
+<p>
+info@avanilanddevelopers.com
+</p>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-x-twitter"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+
+<!-- COMPANY LINKS -->
+
+<div class="footer-col">
+
+<h4>Company</h4>
+
+<ul>
+<li><a href="#">For Dealer</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Testimonials</a></li>
+<li><a href="#">Awards & Media</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Blog</a></li>
+</ul>
+
+</div>
+
+
+<!-- ABOUT -->
+
+<div class="footer-col">
+
+<h4>About Avani Land Developers</h4>
+
+<p>
+We specialize in premium plotting developments across Thane, Panvel,
+Uran, Karjat and surrounding growth corridors with secure documentation,
+transparency, and strong future appreciation potential.
+</p>
+
+<h4>Projects in Mumbai</h4>
+
+<div class="footer-project-links">
+
+<a href="#">Plot in Thane</a>
+<a href="#">Plot in Panvel</a>
+<a href="#">Plot in Uran</a>
+<a href="#">Plot in Karjat</a>
+<a href="#">Plot in Chirle</a>
+<a href="#">Plot in Alibaug</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- COPYRIGHT -->
+
+<div class="footer-bottom">
+
+All trademarks, logos and brand names belong to their respective owners.
+© 2026 Avani Land Developers Pvt. Ltd. All Rights Reserved.
+
+</div>
+
+</footer>
+</body>
+</html>
